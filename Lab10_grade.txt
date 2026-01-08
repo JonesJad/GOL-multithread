@@ -1,0 +1,36 @@
+
+
+Lab10 : pthreads Game of Life
+
+: ywu10-jjones10
+>> Checkpoint: 
+ [ pts / 1 ]: 1
+>> Setup and Error Handling: Program allows more threads than the board dimension. Error message
+should display updated usage information for program's number of
+command_line arguments.
+[ pts / 1 ]: 0.5
+>> Partitioning: 
+ [ pts / 2 ]: 2
+
+>> Parallel Execution: 
+ [ pts / 7 ]: 7
+
+>>  Simulation Correctness: 
+ [ pts / 2 ]: 2
+>> Graphical Visualization: 
+ [ pts / 0.5 ]: 0.5
+>> Simulation Speed Up: 
+ [ pts / 0.5 ]: 0.5
+
+>> Valgrind: 
+ [ pts / 1]: 1
+
+>> Program Style: Not all function comments have complete functions comments. All
+variables should be declared at the top of the function. No lines
+should be more than 80 characters.
+ [ pts / 1]: 0.75
+ [ Total  /16 ]: 15.25
+>> General comments: Good work! Have a nice winter break!
+
+
+

@@ -1,0 +1,46 @@
+This design worksheet file will not be graded, but it contains helpful
+ideas for outlining the design of your solution. You should consider
+reviewing this before starting to write code. Edit this file as you
+come up with ideas and then you can refer back to it as you are
+working.
+
+Part (1) corresponds to the first part of the lab (how to partition
+the work) and part (2) corresponds to the second part of the lab (how
+the thread control flow will work).
+
+(1) Designing a function to partition the board
+
+The lab writeup contains a lot of information on how partitioning
+should work and suggestions on how to get started.
+
+Q1: What parameters does this function need and what does it return?
+This will help you design the prototype for the function.
+
+Tip: Pass-by-pointer parameters are a way to "return" multiple values.
+
+Q2: What do you want this function to do?  Design your function's
+high-level control flow, and then refine in details.
+
+Q3: How are you going to test your function's correctness?  What are
+the different configurations and command-line options you want to
+test?
+
+(2) Designing the parallel game of life
+
+The lab writeup contains a lot of information on the lab requirements
+and information about control flow.
+
+Q1: What changes need to be made to main's control flow for pthreads?
+
+Q2: What additional state do you need to add to the parallel solution?
+Do you need new globals or new data structures?  Do you need to modify
+existing data structures?
+
+Q3: What changes need to be made to parallelize the play_gol function?
+Design the high-level control flow of the pthread version of play_gol,
+and refine as needed.  Do you need any new helper functions?  Modify
+existing ones?  Are any parts of this function that only 1 thread
+performs?
+
+Q4: Does your solution need synchronization?  How many and what type?
+Where?
